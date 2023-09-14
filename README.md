@@ -7,5 +7,5 @@ Given an XML string write a function that returns true if the string is a valid 
 To simplify the question, we treat a pair of  opening tag and closing tags as matching only if the strings in both tags are identical. We don’t need to parse extra components like attributes in the XML tag. 
 
 ## Restrictions
-Usage of `System.XML` and `Regular Expression` are **prohibited**
-Function signature should be: `bool DetermineXml(string xml)`
+- Usage of `System.XML` and `Regular Expression` are **prohibited**
+- Function signature should be: `bool DetermineXml(string xml)`
